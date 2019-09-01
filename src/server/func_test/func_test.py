@@ -12,7 +12,6 @@
 """
 
 import cv2
-import zxing
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -70,7 +69,16 @@ def search_rect():
     cv2.imwrite("E:\\\\test\\post.jpg", new_image)
 
 
-search_rect()
+# search_rect()
+
+# import tensorflow as tf
+#
+# gpu_device_name = tf.test.gpu_device_name()
+# print(gpu_device_name)
+
+import mysqlx
+
+mysqlx.connection()
 
 
 if __name__ == '__main__':

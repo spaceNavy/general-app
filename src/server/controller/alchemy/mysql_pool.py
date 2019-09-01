@@ -24,7 +24,7 @@ def alchemy_pool_create(change=False, **kwargs):
         host=kwargs.get("host", MysqlParameter.HOST),
         port=kwargs.get("port", MysqlParameter.PORT),
         schema=kwargs.get("schema", MysqlParameter.DB_NAME),
-        encode=kwargs.get("encode", "utf8")
+        encode=kwargs.get("encode", "utf8mb4")
     )
     if change:
         alchemy_pool_close()

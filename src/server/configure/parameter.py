@@ -17,7 +17,7 @@ from copy import deepcopy
 class MysqlParameter(object):
     DB_NAME = 'three_eat_person'
     USER = 'root'
-    PASSWORD = '123456'
+    PASSWORD = '111111'
     HOST = 'localhost'
     PORT = 3306
 
