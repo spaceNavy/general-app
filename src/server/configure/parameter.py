@@ -15,9 +15,9 @@ from copy import deepcopy
 
 
 class MysqlParameter(object):
-    DB_NAME = 'three_eat_person'
+    DB_NAME = 'ai_lab'
     USER = 'root'
-    PASSWORD = '111111'
+    PASSWORD = '123456'
     HOST = 'localhost'
     PORT = 3306
 
@@ -40,7 +40,7 @@ class AppSetting(object):
 
     TOKEN_EXTERNAL = [
         "/api/general/login/",
-        "/api/general/init-db/",
+        "/api/general/db-init/",
         "/api/dashboard/",
         "/api/dashboard/swagger.json",
     ]

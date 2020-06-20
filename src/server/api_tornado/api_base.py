@@ -275,10 +275,9 @@ class ApiDBInit(ApiBase):
             "username": "admin",
             "password": "admin",
             "name": "初始管理员",
-            "email": "admin@deepcyto.cn",
+            "email": "admin@gitlab.cn",
             "phone": "15900000000",
             "role": role_uid,
-            "leader": None,
             "is_login": False,
             "is_valid": True
         }
